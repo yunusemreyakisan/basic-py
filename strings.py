@@ -22,7 +22,10 @@ print("Sonuç {r:1.2}".format(r = result)) #Sonucun başında ne kadar boşluk o
 
 #String Methodları
 mesaj = 'Merhaba Emre, nasılsın?'
-mesaj = mesaj.upper()
+mesaj = mesaj.upper() #Tüm harfleri büyük harfe çevirir.
+mesaj = mesaj.lower() #Tüm harfleri küçük harfe çevirir.
+mesaj = mesaj.title() #Her kelimenin baş harfi büyük harfe çevirilir.
+mesaj = mesaj.capitalize() #Sadece ilk harfi büyük yazar.
 print(mesaj)
 
 
