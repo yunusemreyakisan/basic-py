@@ -20,6 +20,15 @@ print("My name is {s} {n}".format(n = name, s = surname)) #surname ilk yazdırı
 result = 200/700
 print("Sonuç {r:1.2}".format(r = result)) #Sonucun başında ne kadar boşluk olacağını ve sonrasında kaç basamak yazdırılacağını belirtir.
 
+#String Methodları
+mesaj = 'Merhaba Emre, nasılsın?'
+mesaj = mesaj.upper()
+print(mesaj)
+
+
+
+
+
 #Uygulama
 
 #Soru-1 : 'course' içerisinden ilk 15 ve son 15 karakteri alın.

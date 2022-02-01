@@ -14,7 +14,4 @@ musTC = 37646365487
 musDogyil = 2000
 musAdres = 'Arapzade Mah. Dr. Cemil Mandi Cad. No:19'
 musYas = 21
-
 print(musAdSoyad, musCins, musTC, musDogyil, musAdres, musYas)
-
-
