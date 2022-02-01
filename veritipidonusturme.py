@@ -13,7 +13,6 @@ print(k)
 print(type(k))
 
 #Uygulama
-
 pi= 3.14
 yariCap= float(input("Bir yaricap giriniz: "))
 alan = (pi*yariCap*yariCap)
