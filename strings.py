@@ -26,6 +26,12 @@ mesaj = mesaj.upper() #Tüm harfleri büyük harfe çevirir.
 mesaj = mesaj.lower() #Tüm harfleri küçük harfe çevirir.
 mesaj = mesaj.title() #Her kelimenin baş harfi büyük harfe çevirilir.
 mesaj = mesaj.capitalize() #Sadece ilk harfi büyük yazar.
+mesaj = mesaj.strip() #Baştaki boşlukları siler.
+mesaj = mesaj.split() #Tüm kelimedeki boşluklar karakter dizisi olarak yazdırılır.
+mesaj = ' '.join(mesaj) #Ayrılmış halde duran metni boşluklarla birleştirir.
+index = mesaj.find('nasılsın') #Nasılsın metninin indexine erişir ve yazdırır.
+mesaj = mesaj.replace('Emre', 'Yunus') #Emre yerine Yunus yazdırır.
+print(index)
 print(mesaj)
 
 
