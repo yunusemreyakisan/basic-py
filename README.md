@@ -18,7 +18,7 @@ print(y)
 ```
 
 <p align="center">
-  <img width="800" height="1000" src="https://i.hizliresim.com/6m1vnp0.png">
+  <img width="900" height="800" src="https://i.hizliresim.com/6m1vnp0.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
 ```markdown
