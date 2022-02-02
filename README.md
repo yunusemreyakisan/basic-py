@@ -18,7 +18,7 @@ print(y)
 ```
 
 <p align="center">
-  <img src="https://www.hizliresim.com/6m1vnp0" alt="www.w3schools.com üzerinde yer alan Veri Tipi eğitiminden alınmıştır."/>
+  <img width="600" height="200" src="https://i.hizliresim.com/6m1vnp0.png">
 </p>
 
 ```markdown
