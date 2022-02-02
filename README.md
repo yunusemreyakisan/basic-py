@@ -1,4 +1,4 @@
-## Benimle 30 günde Python öğren!
+## :paperclip:Benimle 30 günde Python öğren!
 
 ```markdown
 # Ekrana yazdır.
