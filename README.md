@@ -18,7 +18,7 @@ print(y)
 ```
 
 <p align="center">
-  <img width="600" height="200" src="https://i.hizliresim.com/6m1vnp0.png">
+  <img width="800" height="1000" src="https://i.hizliresim.com/6m1vnp0.png">
 </p>
 
 ```markdown
