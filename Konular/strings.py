@@ -34,12 +34,7 @@ mesaj = mesaj.replace('Emre', 'Yunus') #Emre yerine Yunus yazdırır.
 print(index)
 print(mesaj)
 
-
-
-
-
 #Uygulama
-
 #Soru-1 : 'course' içerisinden ilk 15 ve son 15 karakteri alın.
 kelime = 'course'
 print(kelime[:5]) #5.indeksten geriye doğru yazdırır.

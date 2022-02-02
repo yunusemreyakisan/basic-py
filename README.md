@@ -10,6 +10,14 @@ print("Hello World")
 ```
 
 ```markdown
+# Değişken Tanımlama
+x = 5
+y = "Yunus Emre"
+print(x)
+print(y)
+```
+
+```markdown
 # İletişim 
 mail = 'yunusemreyakisan@outlook.com'
 instagram = 'theyakisan'
