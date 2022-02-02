@@ -1,8 +1,8 @@
 ## 30 Günde Python
 30 gün boyunca her gün yeni bir konu öğrenerek Python öğrenmeye devam edeceğiz.
 
-### Kod Parçacıkları
-Bu kısımda bazı güzel kod parçacıkları bırakacağım.
+### Kod Parçacıkları ve Yararlı Kaynaklar
+Bu kısımda bazı güzel kod parçacıkları ve yararlı kaynaklar bırakacağım.
 
 ```markdown
 # Ekrana herhangi bir şey yazdırma
