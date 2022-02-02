@@ -16,13 +16,15 @@ y = "Yunus Emre"
 print(x)
 print(y)
 ```
-# Veri Tipleri
+#:key:Veri Tipleri
 <p align="center">
   <img width="900" height="800" src="https://i.hizliresim.com/6m1vnp0.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
+
+#:runner:Kaçış Karakterleri
 <p align="center">
-  <img width="900" height="600" src="https://www.hizliresim.com/3hlzy8r" alt="www.w3schools.com/python internet adresinden alınmıştır.">
+  <img width="900" height="500" src="https://i.hizliresim.com/3hlzy8r.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
 ```markdown
