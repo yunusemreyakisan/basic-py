@@ -17,6 +17,10 @@ print(x)
 print(y)
 ```
 
+<p align="center">
+  <img src="https://www.hizliresim.com/6m1vnp0" alt="www.w3schools.com üzerinde yer alan Veri Tipi eğitiminden alınmıştır."/>
+</p>
+
 ```markdown
 # İletişim 
 mail = 'yunusemreyakisan@outlook.com'
