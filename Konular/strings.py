@@ -2,7 +2,7 @@
 name = "Yunus Emre"
 surname="Yakisan"
 greeting = "My name is "+ name + " "+surname
-#print(greeting)
+print(greeting)
 print(greeting[0]) #0.indeksteki elemanı yazdırır.
 print(greeting[-2]) #Sondan 2. elemanı yazdırır.
 print(greeting[3:5]) #3.indeksten 5.indekse kadar yazdırır.
@@ -33,6 +33,12 @@ index = mesaj.find('nasılsın') #Nasılsın metninin indexine erişir ve yazdı
 mesaj = mesaj.replace('Emre', 'Yunus') #Emre yerine Yunus yazdırır.
 print(index)
 print(mesaj)
+
+#String Birleştirme
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
 
 #Uygulama
 #Soru-1 : 'course' içerisinden ilk 15 ve son 15 karakteri alın.

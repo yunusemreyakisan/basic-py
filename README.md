@@ -21,6 +21,10 @@ print(y)
   <img width="900" height="800" src="https://i.hizliresim.com/6m1vnp0.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
+<p align="center">
+  <img width="900" height="600" src="https://www.hizliresim.com/3hlzy8r" alt="www.w3schools.com/python internet adresinden alınmıştır.">
+</p>
+
 ```markdown
 # İletişim 
 mail = 'yunusemreyakisan@outlook.com'

@@ -10,3 +10,6 @@
 # Boolean Type:	bool
 # Binary Types:	bytes, bytearray, memoryview
 
+#Örnek-1
+x = 5
+print(type(x)) #x'e atanan sayının tipini öğreniyoruz.
