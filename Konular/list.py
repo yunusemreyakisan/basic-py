@@ -44,3 +44,19 @@
 # for x in list:
 #  print(x)
 
+#Listenin numaralarına bakarak yazdırma
+list = ["Elma","Muz","Çilek"]
+for i in range(len(list)):
+  print(list[i]) #İndex numarasına göre hepsini ekrana yazdırır.
+  
+#while döngüsü kullanarak tüm öğeleri yazdırma
+list = ["Elma","Muz","Çilek"]
+i = 0
+while i < len(list):
+  print(list[i])
+  i = i + 1
+  
+#Belli bir ifadeyi içeren elemanları yeni bir listeye çekme
+list = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in list if "a" in x] #İçerisinde a harfi olan elemanları çeker.
+print(newlist)
