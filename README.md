@@ -30,9 +30,14 @@ print(y)
   <img width="900" height="500" src="https://i.hizliresim.com/3hlzy8r.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
-# :runner:Liste Metodları
+### :floppy_disk:Liste Metodları
 <p align="center">
-  <img width="900" height="500" src="https://www.hizliresim.com/n5l5f10" alt="www.w3schools.com/python internet adresinden alınmıştır.">
+  <img width="900" height="500" src="https://i.hizliresim.com/n5l5f10.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
+</p>
+
+### :thought_balloon:Set Metodları
+<p align="center">
+  <img width="900" height="600" src="https://i.hizliresim.com/4ulox8w.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
 ```markdown
