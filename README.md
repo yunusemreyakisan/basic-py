@@ -37,7 +37,7 @@ print(y)
 
 ### :thought_balloon:Set Metodları
 <p align="center">
-  <img width="900" height="500" src="https://i.hizliresim.com/4ulox8w.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
+  <img width="900" height="600" src="https://i.hizliresim.com/4ulox8w.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
 ```markdown
