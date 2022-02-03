@@ -32,7 +32,7 @@ print(y)
 
 # :runner:Liste Metodları
 <p align="center">
-  <img width="900" height="500" src="https://www.hizliresim.com/n5l5f10" alt="www.w3schools.com/python internet adresinden alınmıştır.">
+  <img width="900" height="500" src="https://i.hizliresim.com/n5l5f10.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
 ```markdown
