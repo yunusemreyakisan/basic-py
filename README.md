@@ -30,7 +30,7 @@ print(y)
   <img width="900" height="500" src="https://i.hizliresim.com/3hlzy8r.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
 
-# :runner:Liste Metodları
+### :runner:Liste Metodları
 <p align="center">
   <img width="900" height="500" src="https://i.hizliresim.com/n5l5f10.png" alt="www.w3schools.com/python internet adresinden alınmıştır.">
 </p>
