@@ -5,7 +5,7 @@
 print("Merhaba, Dünya")
 ```
 
->Not : Dosyalar içerisinde bulunan kodları satır başlarında yer alan '#' elemanlarını silerek çalıştırabilirsiniz.
+>Not : Projeyi tercihen Visual Studio Code IDE üzerinden çalıştırmanızı öneririm.
 
 
 ### :fireworks: Kod Parçacıkları ve Yararlı Kaynaklar
