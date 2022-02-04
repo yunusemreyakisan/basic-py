@@ -35,4 +35,22 @@ def fonksiyon(bilgisayarMarka, bRenk, bEkranKarti):
     
 fonksiyon("MSI", "Siyah", "GTX 1050")
 
-#
+#Fonksiyonunuza kaç adet parametre ekleyeceğinizi bilmiyorsanız, parametre sayısının sınırını belirtmek için * kullanabilirsiniz.
+def fonksiyonum(*cocuklar):
+      print("En genc cocuk " + cocuklar[1])
+
+fonksiyonum("Emre", "Yagiz", "Efe")
+
+#Anahtar kelime parametrelerinin sayısı bilinmiyorsa, parametre adından önce bir çift ** ekleyin
+def fonksiyonum(**cocuk):
+      print("Onun soyadi " + cocuk["soyAdi"])
+
+fonksiyonum(adi = "Yunus Emre", soyAdi = "Yakisan")
+
+#Fonksiyonu argümansız (parametresiz) çağırırsak, varsayılan değeri kullanır.
+def fonksiyon1(takimAdi = "GS"):
+    print("Muslera " + takimAdi + " takimimdeki bir futbolcu.")
+
+fonksiyon1()
+
+
