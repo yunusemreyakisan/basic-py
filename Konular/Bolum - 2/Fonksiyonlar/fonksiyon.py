@@ -53,4 +53,55 @@ def fonksiyon1(takimAdi = "GS"):
 
 fonksiyon1()
 
+#Bir fonksiyonun bir değer döndürmesine izin vermek için return ifadesini kullanırız.
+def fonksiyon2(x):
+   return 5 * x
+    
+print(fonksiyon2(5))
+print(fonksiyon2(2))
+
+#Özyineleme, ortak bir matematik ve programlama kavramıdır. Bu, bir işlevin kendisini çağırdığı anlamına gelir.
+#Bu, bir sonuca ulaşmak için veriler arasında dolaşabileceğiniz anlamına gelir.
+'''Yeni bir geliştirici için bunun tam olarak nasıl çalıştığını anlaması biraz zaman alabilir, öğrenmenin en iyi yolu onu test etmek ve değiştirmektir.'''
+
+def yineleme(k):
+  if(k > 0):
+    sonuc = k + yineleme(k - 1)
+    print(sonuc)
+  else:
+    sonuc = 0
+  return sonuc
+yineleme(6) #Kaça kadar devam edeceğini söyler.
+
+
+'''Anlaman için buraya yorum satırı olarak yazıyorum.'''
+
+# ilk olarak k yerine 1 verdim.
+#def yineleme(1):
+#   if(1> 0):
+#     sonuc = 1 + yineleme(1 - 1) [yineleme sıfır oldu burda sonra başa aldım şimdi 0 üzerinden bakıyorum.] yineleme(0) a bakıyorum.
+#     print(sonuc)
+#   else:
+#     sonuc = 0
+#   return sonuc
+# yineleme(6)
+
+# Şimdi k yerine 2 veriyorum.
+# 2 verdim sonuc = 2 + yineleme(2-1)
+# sonuc = 2 + yineleme(1) oldu
+# şimdi yineleme(1) başa yazıp fonksiyonu döndüreceğim.
+# döndürdükten sonra 1+0 = 1 oluyor. k yerine 2 yazdığımdan 2 geldi.
+# 2+1 = 3 oluyor.
+
+# devam ediyorum. 3 veriyorum.
+# sonuc = 3 + yineleme(2)
+# yineleme(2) yukarıda buldum 3 çıkmıştı.
+# sonuc = 3 + 3 = 6
+
+'''k yerine 6 verene kadar devam ediyorum.'''
+
+
+
+
+
 
