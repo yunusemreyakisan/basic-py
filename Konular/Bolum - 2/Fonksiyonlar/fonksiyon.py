@@ -97,11 +97,14 @@ yineleme(6) #Kaça kadar devam edeceğini söyler.
 # sonuc = 3 + yineleme(2)
 # yineleme(2) yukarıda buldum 3 çıkmıştı.
 # sonuc = 3 + 3 = 6
-
 '''k yerine 6 verene kadar devam ediyorum.'''
 
+#Bir lambda fonksiyonu, küçük bir anonim fonksiyondur. Bir lambda fonksiyonu herhangi bir sayıda argüman alabilir, ancak yalnızca bir ifadeye sahip olabilir.
 
+#Lambda kullanımı
+x = lambda a : a + 10 #a değişkenine 10 eklenip döndürülür.
+print(x(5))
 
-
-
-
+#Lambda işlevleri herhangi bir sayıda parametre alabilir.
+x = lambda a, b : a * b
+print(x(5, 6))
