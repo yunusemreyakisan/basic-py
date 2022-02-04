@@ -79,3 +79,32 @@ thisdict["renk"] = "Kırmızı" #Veri ekleme
 print(thisdict)
 
 thisdict.update({"renk": "Siyah"}) #Rengi güncelleme
+
+#Döngü ile dizi elemanlarını dolaşma
+thisdict = {
+  "marka": "Volvo",
+  "model": "S90",
+  "yılı": 2016
+}
+
+for x in thisdict:
+      print(thisdict[x])
+
+#İç içe diziler
+myfamily = {
+  "cocuk1" : {
+    "isim" : "Emre",
+    "yılı" : 2000
+  },
+  "cocuk2" : {
+    "isim" : "Efe",
+    "yılı" : 2005
+  },
+  "child3" : {
+    "isim" : "Yağız",
+    "yılı" : 2020
+  }
+}
+print(myfamily) #Dict içerisindeki iç içe dizileri gösterir.
+
+#Kodları yazdığım sırada Github Copilot teknik izlenimine kabul aldım.
