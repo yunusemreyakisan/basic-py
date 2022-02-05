@@ -54,7 +54,3 @@ class Ogrenci1(Insan):
           print("Hosgeldiniz", self.adi, self.soyadi)
       
 welcome = Ogrenci1("Yunus Emre", "Yakisan", 2024).welcome()
-
-
-
-
