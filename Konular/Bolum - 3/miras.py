@@ -44,3 +44,17 @@ class Ogrenci1(Insan):
 x = Ogrenci1("Yunus Emre", "Yakisan", 2024)
 print(x.adi, x.soyadi, x.mezuniyetYili)
 
+#Method Ekleme
+class Ogrenci1(Insan):
+    def __init__(self, adi, soyAdi, mezuniyetYili):
+        super().__init__(adi, soyAdi)
+        self.mezuniyetYili = mezuniyetYili
+
+    def welcome(self):
+          print("Hosgeldiniz", self.adi, self.soyadi)
+      
+welcome = Ogrenci1("Yunus Emre", "Yakisan", 2024).welcome()
+
+
+
+
