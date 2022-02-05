@@ -28,8 +28,19 @@ class Ogrenci(Insan):
         self.no = no       
 #__init__() işlevi, sınıf yeni bir nesne oluşturmak için her kullanıldığında otomatik olarak çağrılır.
 
+#Python ayrıca, alt sınıfın ebeveyninden tüm yöntemleri ve özellikleri miras almasını sağlayacak bir super() işlevine sahiptir.
+class Ogrenci(Insan):
+    def __init__(self, adi, soyAdi, no):
+        super().__init__(adi, soyAdi)
+        
+#super() işlevini kullanarak, üst öğenin adını kullanmanız gerekmez, yöntemleri ve özellikleri üst öğesinden otomatik olarak devralır.
 
+#Öğrenci sınıfına mezuniyet yılı adlı bir özellik ekleyelim:
+class Ogrenci1(Insan):
+    def __init__(self, adi, soyAdi, mezuniyetYili):
+        super().__init__(adi, soyAdi)
+        self.mezuniyetYili = mezuniyetYili
 
-
-
+x = Ogrenci1("Yunus Emre", "Yakisan", 2024)
+print(x.adi, x.soyadi, x.mezuniyetYili)
 

@@ -41,6 +41,16 @@ print(y)
 </p>
 
 ```markdown
+#Sınıf oluşturma 
+class Sinifim:
+  x = 5
+  
+#Nesne oluşturma 
+p1 = Sinifim()
+print(p1.x)
+```
+
+```markdown
 # İletişim 
 mail = 'yunusemreyakisan@outlook.com'
 instagram = 'theyakisan'
