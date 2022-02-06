@@ -35,3 +35,28 @@ for x in f:
 f = open("demofile.txt", "r")
 print(f.readline())
 f.close()
+
+#Mevcut bir dosyaya yazdırıp okuma     
+f = open("demofile2.txt", "a")
+f.write("İçerik ekledim!") #Dosyayı yazmak için write() işlevini kullanın.
+f.close()
+
+f = open("demofile2.txt", "r") #Dosyayı tekrar açın.
+print(f.read()) #Dosyayı okumak için read() işlevini kullanın.
+
+#Dosya Silme 
+import os
+os.remove("demofile.txt") #Dosyayı silmek için os.remove() işlevini kullanın.
+
+#Dosyanın var olup olmadığını kontrol edin, ardından silin.
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("Dosya yok!")
+
+#Klasör Silme 
+import os
+os.rmdir("klasorum") 
+
+'''Not: Yalnızca boş klasörleri kaldırabilirsiniz.'''
