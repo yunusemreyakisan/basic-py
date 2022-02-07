@@ -50,6 +50,17 @@ p1 = Sinifim()
 print(p1.x)
 ```
 ```markdown
+#Matematik işlemleri gerçekleştirme (min ve max)
+
+x = min(5, 10, 25) #min() fonksiyonu ile en küçük değeri bulunur.
+y = max(5, 10, 25) #max() fonksiyonu ile en büyük değeri bulunur.
+print(x)
+print(y)
+
+#Mutlak alma
+x = abs(-7.25) #abs() fonksiyonu ile mutlak değeri bulunur.
+print(x)
+
 #Kuvvet alma
 x = pow(4, 3) #pow() fonksiyonu ile 4'ün 3. kuvveti bulunur.
 print(x)
