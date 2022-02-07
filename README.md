@@ -65,7 +65,15 @@ print(x)
 x = pow(4, 3) #pow() fonksiyonu ile 4'ün 3. kuvveti bulunur.
 print(x)
 ```
-
+```markdown
+# Küresel Kapsam, Python kodunun ana gövdesinde oluşturulan bir değişken global bir değişkendir ve global kapsama aittir. 
+# Global değişkenler, global ve yerel herhangi bir kapsamda kullanılabilir.
+x = 200 # Global
+def myfunc():
+  print(x)
+myfunc()
+print(x)
+```
 ```markdown
 # İletişim 
 mail = 'yunusemreyakisan@outlook.com'
