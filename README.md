@@ -50,6 +50,7 @@ p1 = Sinifim()
 print(p1.x)
 ```
 ```markdown
+#Kuvvet alma
 x = pow(4, 3) #pow() fonksiyonu ile 4'ün 3. kuvveti bulunur.
 print(x)
 ```
