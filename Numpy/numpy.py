@@ -10,3 +10,9 @@
 '''NumPy'nin Kurulumu'''
 #Bu komutu kullanarak yükleyin
 '''C:\Users\Your Name>pip install numpy'''
+
+
+
+
+
+
