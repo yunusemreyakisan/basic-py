@@ -11,8 +11,16 @@
 #Bu komutu kullanarak yükleyin
 '''C:\Users\Your Name>pip install numpy'''
 
+import numpy 
+arr = numpy.array([1, 2, 3, 4, 5])
+print(arr) # [1 2 3 4 5]
 
+#NumPy genellikle np takma adı altında içe aktarılır.
+#Alias : Python'da takma ad, aynı şeye atıfta bulunmak için alternatif bir addır.
+import numpy as np 
 
-
-
+#Örnek-1       
+import numpy as np 
+arr = np.array([1, 2, 3, 4, 5]) 
+print(arr) # [1 2 3 4 5]
 
