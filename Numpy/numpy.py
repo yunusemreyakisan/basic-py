@@ -24,3 +24,23 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5]) 
 print(arr) # [1 2 3 4 5]
 
+
+#Numpy versiyonunu kontrol etme
+import numpy as np
+print(np.__version__) # 1.18.1
+
+'''NumPy dizilerle çalışmak için kullanılır. 
+NumPy'deki dizi nesnesine ndarray adı verilir. 
+array() işlevini kullanarak bir NumPy ndarray nesnesi oluşturabiliriz.'''
+
+#Tuple kullanılarak ndarray oluşturma
+import numpy as np
+
+array = np.array((1, 2, 3, 4, 5)) # Tuple
+print(array)
+
+#Dizilerdeki Boyutlar (İç içe diziler)
+
+
+
+
