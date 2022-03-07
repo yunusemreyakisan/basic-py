@@ -9,7 +9,7 @@ print(next(iterable))
 print(next(iterable))
 
 
-#Iterable dögü ile kullanmak.
+#Iterable döngü ile kullanmak.
 mytuple = ("Elma", "Muz", "Cilek")
 for x in mytuple:
   print(x)
