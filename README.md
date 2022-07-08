@@ -74,12 +74,4 @@ def myfunc():
 myfunc()
 print(x)
 ```
-```markdown
-# İletişim 
-mail = 'yunusemreyakisan@outlook.com'
-instagram = 'theyakisan'
-twitter = 'theyakisan'
-```
-
-
 
